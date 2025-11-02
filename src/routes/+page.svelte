@@ -4,14 +4,13 @@
 			<div class="h-50 w-50 -translate-x-90 -translate-y-48 rounded-full bg-primary/50"></div>
 		</div>
 		<div class="h-full bg-card/20 p-7 backdrop-blur-[140px]">
-			<div class="flex items-center justify-between pb-4">
-				<div class="flex items-center gap-4">
+			<div class="relative flex items-center justify-center pb-4">
+				<div class="absolute left-0 flex items-center gap-4">
 					{#each ['bg-ctp-red-200', 'bg-accent', 'bg-ctp-blue-200'] as color}
 						<div class={`h-5 w-5 rounded-full ${color}`}></div>
 					{/each}
 				</div>
 				<p class="text-xl tracking-wider opacity-60">./pandev</p>
-				<i></i>
 			</div>
 			<div class="flex h-full flex-col items-center justify-center">
 				<img src="/images/logo.png" alt="pandesal.dev" />
