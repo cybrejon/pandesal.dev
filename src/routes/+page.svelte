@@ -26,7 +26,7 @@
 					</p>
 					<a
 						class="flex items-center gap-3 rounded-full border-2 border-ctp-mauve-400 bg-linear-to-b from-ctp-mauve-800 via-ctp-mauve-800 to-ctp-mauve-950 px-4 py-2 drop-shadow-[0_12px_var(--color-background)] transition-all hover:-translate-y-1 active:translate-y-2 active:opacity-60 active:drop-shadow-none md:px-7 md:py-4"
-						href="/"
+						href="https://discord.gg/pandesal-dev"
 					>
 						<span class="iconify text-2xl text-white mingcute--discord-fill md:text-[2.5rem]"
 						></span>
