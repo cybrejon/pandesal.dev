@@ -1,0 +1,44 @@
+@import 'tailwindcss';
+@import '@catppuccin/tailwindcss/macchiato.css';
+@plugin "@iconify/tailwind4";
+@plugin "@iconify/tailwind4" {
+	prefix: 'iconify';
+	prefixes: mingcute;
+}
+
+:root {
+	--fnt-dela-gothic-one: 'Dela Gothic One', system-ui;
+	--fnt-display: 'Darker Grotesque Variable', sans-serif;
+}
+
+@theme {
+	--font-dela: var(--fnt-dela-gothic-one);
+
+	--color-foreground: oklch(85.31% 0.06 280.87);
+	--color-background: oklch(21.88% 0.025 280.66);
+	--color-primary: oklch(87.9% 0.074 84.75);
+	--color-secondary: oklch(77.15% 0.126 303.9);
+	--color-accent: oklch(83.5% 0.108 138.15);
+
+	--color-card: oklch(0.324 0.0319 281.98);
+}
+
+body {
+	font-family: var(--fnt-display);
+	font-weight: 600;
+	background-color: var(--color-background);
+	color: var(--color-foreground);
+}
+
+p {
+	font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	/* font-weight: 800; */
+}
