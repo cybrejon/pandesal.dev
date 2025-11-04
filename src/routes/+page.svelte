@@ -13,7 +13,7 @@
 				<p class="text-xl tracking-wider opacity-60">./pandev</p>
 			</div>
 			<div class="flex h-full flex-col items-center justify-center">
-				<img class="w-50 md:w-auto" src="/images/logo.png" alt="pandesal.dev" />
+				<img class="w-50 md:w-auto" src="/images/logo.png" alt="Pandev Community Logo - A Community of Filipino Software Developers" />
 				<div class="flex flex-col items-center gap-6 text-center md:gap-12">
 					<h1
 						class="max-w-[60rem] font-dela text-3xl font-light tracking-wide text-pretty drop-shadow-[0_12px_var(--color-background)] md:text-5xl lg:text-7xl lg:leading-20"
