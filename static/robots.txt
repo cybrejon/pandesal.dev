@@ -1,3 +1,5 @@
-# allow crawling everything by default
+# allow crawling everything by default, change behavior from hosting provider instead
 User-agent: *
 Disallow:
+
+Sitemap: https://pandesal.dev/sitemap.xml
