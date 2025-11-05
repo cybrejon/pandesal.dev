@@ -1,6 +1,6 @@
 <script lang="ts">
 	import '../app.css';
-	import favicon from '$lib/assets/favicon.svg';
+	import favicon from '$lib/assets/favicon.png';
 	import SEO from '$lib/SEO.svelte';
 	import '@fontsource/dela-gothic-one';
 	// Supports weights 300-900
