@@ -26,20 +26,22 @@
 							A Comm<span class="text-secondary">unity</span> of
 							<span class="text-accent">Filipino</span> Software Developers
 						</h1>
-						<div class="pointer-events-none absolute inset-0 flex items-center justify-center">
+						<div
+							class="pointer-events-none absolute inset-0 hidden items-center justify-center md:flex"
+						>
 							<div class="relative h-20 w-20 drop-shadow-[0_12px_var(--color-background)]">
 								<img
-									class="absolute -top-25 -left-[250px] -rotate-12 lg:-top-25 lg:-left-[400px]"
+									class="absolute -top-15 -left-60 -rotate-12 lg:-top-25 lg:-left-[400px]"
 									src="images/ornaments/star2.svg"
 									alt="ornament star"
 								/>
 								<img
-									class="absolute -right-[250px] -bottom-24 rotate-6 lg:-right-[300px] lg:-bottom-20"
+									class="absolute -right-[250px] -bottom-15 rotate-6 lg:-right-[300px] lg:-bottom-20"
 									src="images/ornaments/star1.svg"
 									alt="ornament star"
 								/>
 								<img
-									class="absolute -bottom-30 -left-60 lg:-bottom-45 lg:-left-65"
+									class="absolute -bottom-20 -left-60 lg:-bottom-45 lg:-left-65"
 									src="images/ornaments/plane.svg"
 									alt="ornament plane"
 								/>
