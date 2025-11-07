@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
+
 	// Too lazy to do this properly
 	let {
 		title = 'Pandev - Community of Filipino Software Developers',
@@ -13,16 +15,21 @@
 		locale = 'en_US'
 	}: Record<string, string> = $props();
 
-	const structuredData = {
-		'@context': 'https://schema.org',
-		'@type': 'Organization',
-		name: 'Pandev',
-		description:
-			'A Community of Filipino Software Developers. Where the fun tech talks take place.',
-		url: url,
-		logo: image,
-		sameAs: ['https://discord.gg/pandesal-dev']
-	};
+	// JSON LD
+	onMount(() => {
+		const ld = {
+			'@context': 'https://schema.org',
+			'@type': 'Organization',
+			name: siteName,
+			url: url,
+			sameAs: ['https://discord.gg/pandesal-dev']
+		};
+
+		const script = document.createElement('script');
+		script.type = 'application/ld+json';
+		script.textContent = JSON.stringify(ld);
+		document.head.appendChild(script);
+	});
 </script>
 
 <svelte:head>
@@ -47,9 +54,4 @@
 	<meta property="twitter:title" content={title} />
 	<meta property="twitter:description" content={description} />
 	<meta property="twitter:image" content={image} />
-
-	<!-- JSON-LD -->
-	<script type="application/ld+json">
-        {JSON.stringify(structuredData)}
-	</script>
 </svelte:head>
