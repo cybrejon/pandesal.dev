@@ -1,4 +1,4 @@
-<div class="h-svh p-2 sm:p-6">
+<div class="p-2 sm:h-svh sm:p-6">
 	<div class="relative h-full overflow-hidden rounded-3xl border border-foreground/15">
 		<div class="absolute top-1/2 left-1/2 h-1 w-1">
 			<div class="h-50 w-50 -translate-x-90 -translate-y-48 rounded-full bg-primary/50"></div>
@@ -12,7 +12,7 @@
 				</div>
 				<p class="text-xl tracking-wider opacity-60">./pandev</p>
 			</div>
-			<div class="flex h-full flex-col items-center justify-center">
+			<div class="flex h-full flex-col items-center justify-center py-6 sm:p-0">
 				<img
 					class="w-50 drop-shadow-[0_12px_var(--color-background)] md:w-auto"
 					src="/images/logo.svg"
