@@ -1,13 +1,9 @@
-<script lang="ts">
-	import Container from '$components/atoms/Container.svelte';
-</script>
-
 <div class="p-2 sm:h-svh sm:p-6">
 	<div class="relative h-full overflow-hidden rounded-3xl border border-foreground/15">
 		<div class="absolute top-1/2 left-1/2 h-1 w-1">
 			<div class="h-50 w-50 -translate-x-90 -translate-y-48 rounded-full bg-primary/50"></div>
 		</div>
-		<Container class="@container">
+		<div class="@container h-full bg-card/20 p-4 backdrop-blur-[140px] md:p-7">
 			<div class="relative flex items-center justify-between pb-4 @md:justify-center">
 				<div class="flex items-center gap-2 @md:absolute @md:left-0 @md:gap-4">
 					{#each ['bg-ctp-red-200', 'bg-accent', 'bg-ctp-blue-200'] as color (color)}
@@ -66,6 +62,6 @@
 					>
 				</div>
 			</div>
-		</Container>
+		</div>
 	</div>
 </div>
