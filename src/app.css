@@ -1,5 +1,6 @@
 @import 'tailwindcss';
 @import '@catppuccin/tailwindcss/macchiato.css';
+@plugin "@iconify/tailwind4";
 @plugin "@iconify/tailwind4" {
 	prefix: 'iconify';
 	prefixes: mingcute;
