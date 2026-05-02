@@ -1,3 +1,7 @@
+<script lang="ts">
+	import Button from '$components/atoms/Button.svelte';
+</script>
+
 <div class="p-2 sm:h-svh sm:p-6">
 	<div class="relative h-full overflow-hidden rounded-3xl border border-foreground/15">
 		<div class="absolute top-1/2 left-1/2 h-1 w-1">
@@ -52,14 +56,11 @@
 					<p class="text-base drop-shadow-[0_12px_var(--color-background)] md:text-2xl">
 						Pandev is where the fun tech talks take place
 					</p>
-					<a
-						class="flex items-center gap-3 rounded-full border-2 border-ctp-mauve-400 bg-linear-to-b from-ctp-mauve-800 via-ctp-mauve-950 to-ctp-mauve-950 px-4 py-2 drop-shadow-[0_12px_var(--color-background)] transition-all hover:-translate-y-1 active:translate-y-2 active:opacity-60 active:drop-shadow-none md:px-6 md:py-2"
-						href="https://discord.gg/pandesal-dev"
-					>
+					<Button variant="cta" href="https://discord.gg/pandesal-dev" class="md:px-8 md:py-4">
 						<span class="iconify text-2xl text-white mingcute--discord-fill md:text-[2.5rem]"
 						></span>
-						<span class="text-xl font-bold text-white md:text-2xl">Join Discord</span></a
-					>
+						<span class="text-xl font-bold text-white md:text-2xl">Join PanDev</span>
+					</Button>
 				</div>
 			</div>
 		</div>
