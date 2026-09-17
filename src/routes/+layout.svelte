@@ -39,3 +39,5 @@
 
 <SEO {...seo} />
 {@render children?.()}
+
+<div class="pointer-events-none absolute inset-0 bg-[url('/images/noise.png')] opacity-40"></div>
